@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AndroidTest
+namespace ClassLibrary1
 {
     [Serializable]
     class MovementChange

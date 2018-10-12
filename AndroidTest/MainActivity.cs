@@ -5,6 +5,8 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using System;
+using ClassLibrary1;
+
 
 namespace AndroidTest
 {
@@ -15,7 +17,6 @@ namespace AndroidTest
         private float _lastTouchX;
         private float _lastTouchY;
         private int _activePointerId = InvalidPointerId;
-        private Network _Network;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -55,7 +56,6 @@ namespace AndroidTest
                     float deltaX = x - _lastTouchX;
                     float deltaY = y - _lastTouchY;
 
-                    _Network.SendMovement((int)deltaX, (int)deltaY);
 
                     _lastTouchX = x;
                     _lastTouchY = y;

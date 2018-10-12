@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidTest", "AndroidTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMove", "MouseMove\MouseMove.csproj", "{8F46CFC3-5B64-4D75-ACE6-289B14EC4348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{98F715CE-B118-4B56-BAD9-B0987B1A2F09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{8F46CFC3-5B64-4D75-ACE6-289B14EC4348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F46CFC3-5B64-4D75-ACE6-289B14EC4348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F46CFC3-5B64-4D75-ACE6-289B14EC4348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F715CE-B118-4B56-BAD9-B0987B1A2F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F715CE-B118-4B56-BAD9-B0987B1A2F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F715CE-B118-4B56-BAD9-B0987B1A2F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F715CE-B118-4B56-BAD9-B0987B1A2F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
